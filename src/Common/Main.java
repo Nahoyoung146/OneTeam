@@ -44,7 +44,7 @@ public class Main {
 				System.out.println("프로그램 종료");
 				return;
 			default: // 다른 값 입력
-				System.err.println("잘못 입력하셨습니다. 다시 입력해주세요.");
+				System.out.println("잘못 입력하셨습니다. 다시 입력해주세요.");
 			}
 		}
 	}
