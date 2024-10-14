@@ -15,9 +15,9 @@ public class Main {
 		sodamService s = new sodamService();
 
 		while (true) {
-			System.out.println("[1]로그인");
-			System.out.println("[2]계산기");
-			System.out.println("[3]로그인, 회원가입, 계정찾기");
+			System.out.println("[1] 로그인");
+			System.out.println("[2] 계산기");
+			System.out.println("[3] 로그인, 회원가입, 계정찾기");
 			System.out.println("[4] ");
 			System.out.println("[5] 미니 게임");
 			System.out.println("[6] 프로그램 종료");
