@@ -3,13 +3,14 @@ package Common;
 import java.util.Scanner;
 
 import bang.Servise;
-
+import login_h.Service01;
 public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		Service01 h= new Service01();
 		Servise t = new Servise();
 		while (true) {
-			System.out.println("[1] ");
+			System.out.println("[1]로그인");
 			System.out.println("[2]계산기");
 			System.out.println("[3] ");
 			System.out.println("[4] ");
@@ -19,8 +20,8 @@ public class Main {
 			int menu = sc.nextInt();
 
 			switch (menu) {
-			case 1: 	// 허은미
-
+			case 1: 
+				h.dip();	// 허은미
 				break;
 			case 2: 	// 방준혁
 				t.display();
