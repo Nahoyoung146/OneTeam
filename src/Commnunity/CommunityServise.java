@@ -2,6 +2,20 @@ package Commnunity;
 
 public class CommunityServise extends DTO {
     
+    public void display(){   
+        switch(showMenu()){
+        case 1:
+            newCom();
+            break;
+        case 2:
+            showCom();
+            break;
+        case 3:
+            delCom();
+            break;
+        default:
+    }}
+
     public int showMenu(){			
         System.out.println("[1] 게시글 작성");
         System.out.println("[2] 게시글 보기");
