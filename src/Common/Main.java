@@ -1,15 +1,17 @@
 package Common;
 
+import Commnunity.*;
 import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
+		CommunityServise com=new CommunityServise();
 		Scanner sc = new Scanner(System.in);
 		while (true) {
 			System.out.println("[1] ");
 			System.out.println("[2] ");
 			System.out.println("[3] ");
-			System.out.println("[4] ");
+			System.out.println("[4] 게시글 작성 및 삭제");
 			System.out.println("[5] ");
 			System.out.println("[6] 프로그램 종료");
 			System.out.print(">>>");
@@ -26,7 +28,18 @@ public class Main {
 
 				break;
 			case 4: 	// 김영주
-
+				switch(com.showMenu()){
+					case 1:
+						com.newCom();
+						break;
+					case 2:
+						com.showCom();
+						break;
+					case 3:
+						com.delCom();
+						break;
+					default:
+				}
 				break;
 			case 5: 	// 니호영
 
