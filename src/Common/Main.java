@@ -1,17 +1,18 @@
 package Common;
 
 import java.util.Scanner;
-
 import Naho.Na;
+import bang.Servise;
 
 public class Main {
 	public static void main(String[] args) {
 		Na na = new Na();
-
+		Servise t = new Servise();
 		Scanner sc = new Scanner(System.in);
+
 		while (true) {
 			System.out.println("[1] ");
-			System.out.println("[2] ");
+			System.out.println("[2] 계산기");
 			System.out.println("[3] ");
 			System.out.println("[4] ");
 			System.out.println("[5] 미니 게임");
@@ -24,7 +25,7 @@ public class Main {
 
 				break;
 			case 2: // 방준혁
-
+				t.display();
 				break;
 			case 3: // 박소담
 
