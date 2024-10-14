@@ -4,15 +4,17 @@ import java.util.Scanner;
 
 import bang.Servise;
 import login_h.Service01;
+import sodam.sodamService;
 public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		Service01 h= new Service01();
 		Servise t = new Servise();
+		sodamService s = new sodamService();
 		while (true) {
 			System.out.println("[1]로그인");
 			System.out.println("[2]계산기");
-			System.out.println("[3] ");
+			System.out.println("[3]회원가입,로그인,계정찾기");
 			System.out.println("[4] ");
 			System.out.println("[5] ");
 			System.out.println("[6] 프로그램 종료");
@@ -27,7 +29,7 @@ public class Main {
 				t.display();
 				break;
 			case 3: 	// 박소담
-
+				s.disp();
 				break;
 			case 4: 	// 김영주
 

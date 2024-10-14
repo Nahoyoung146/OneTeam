@@ -56,7 +56,7 @@ public class sodamService {
 			System.out.println("\n"+"정보가 일치하지 않습니다."+"\n"); 
 		} break;
 		
-	case 4: break;
+	case 4: return;
 		
 		
 		
